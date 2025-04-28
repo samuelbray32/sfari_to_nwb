@@ -1,0 +1,12 @@
+name: sfari_to_nwb
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pynwb
+  - pip
+  - pip:
+      - ndx-pose
+      - ndx-franklab-novela
